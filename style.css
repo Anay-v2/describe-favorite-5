@@ -1,0 +1,48 @@
+body {
+    background: rgb(31, 31, 31);
+    background: linear-gradient(0deg, rgba(31, 31, 31, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+.tab {
+    background-color: transparent;
+}
+
+.link:hover {
+    background-color: darkgoldenrod;
+    text-decoration: underline !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+image:hover {
+    transform: scale(0.9)
+}
